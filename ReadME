@@ -1,0 +1,10 @@
+----------------------------------------------------
+Label Diffusion
+----------------------------------------------------
+This package includes an implementation of the Label Diffusion algorithm for semi-supervised labelisation on graphs, based on the model by D. Zhou et al, Learning with Local and Global Consistency.
+
+ - label_diffusion.m : implementation of the label diffusion.
+ - example_run.m : example of the use of label diffusion on the BlogCatalog dataset.
+ - evaluate.m: evaluate the performance given prediction scores and the true label. This evaluation function originate from the SocDim framework by Lei Tang and Huan Liu (http://leitang.net/social_dimension.html)
+
+Robin Devooght (feel free to contact me at rdevoogh@ulb.ac.be for more information)
